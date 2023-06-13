@@ -280,17 +280,12 @@ float: left;
     .im {
         flex-direction: column;
         align-items: center;
-       
-
 
     }
     .im img{
          margin: 15px 0px 0px 0px;
-         opacity: .2;
-        
 
     }
-
 
 
     
