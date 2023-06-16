@@ -213,16 +213,16 @@ float: left;
     color:rgb(8, 1, 29);
 }
 .final-txt p {
-    text-align: center;
+    text-align: center
     font-size: 30px;
 
 }
 
 
-  @media (max-width:991px) {
+  @media (max-width:800px) {
 
     .menu {
-        padding: 5px;
+        padding: 20px;
     }
     .menu label {
         display: initial;
