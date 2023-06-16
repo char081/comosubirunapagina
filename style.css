@@ -67,14 +67,14 @@ float: left;
 
 .header-text{
     text-align: center;
-    width: 500px;
+    width: 700px;
 }
 .header-text h1{
     color: azure;
-    font-size: 50px;
+    font-size: 40px;
 }
 .header-text p{
-    font-size: 30px;
+    font-size: 20px;
     color: azure;
 }
 .btn-1 {
@@ -219,7 +219,7 @@ float: left;
 }
 
 
-  @media (max-width:915px) {
+  @media (max-width:991px) {
 
     .menu {
         padding: 20px;
