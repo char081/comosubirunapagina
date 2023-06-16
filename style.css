@@ -213,13 +213,13 @@ float: left;
     color:rgb(8, 1, 29);
 }
 .final-txt p {
-    text-align: center
+    text-align: center;
     font-size: 30px;
 
 }
 
 
-  @media (max-width:800px) {
+  @media (max-width:991px) {
 
     .menu {
         padding: 20px;
@@ -239,17 +239,18 @@ float: left;
             width: 100%;
         } 
     .menu .navbar ul li a:hover {
-            color:beige;
+            color:beige
+        }
     #menu:checked ~ .navbar{
         display: initial;
     }
     .menu-icono {
-        width: 10px;
+        width: 40px;
 
     }
     .header-text {
         margin-top: 50px;
-        padding: 0px 5px;
+        padding: 0px 25px;
     }
     
     .services {
@@ -279,13 +280,19 @@ float: left;
     .im {
         flex-direction: column;
         align-items: center;
+       
+
 
     }
     .im img{
          margin: 15px 0px 0px 0px;
+         opacity: .2;
+        
 
     }
 
 
+
     
 } 
+
