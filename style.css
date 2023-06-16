@@ -225,7 +225,7 @@ float: left;
         padding: 20px;
     }
     .menu label {
-        display: initial;
+        display: flex;
     }
     .menu .navbar {
         position: absolute; 
@@ -233,7 +233,7 @@ float: left;
         left:0;
         right:0;
         background-color: rgb(9, 2, 55);
-        display: none;
+        display: flex;
         }
     .menu .navbar ul li {
             width: 100%;
@@ -242,7 +242,7 @@ float: left;
             color:beige
         }
     #menu:checked ~ .navbar{
-        display: initial;
+        display: flex;
     }
     .menu-icono {
         width: 40px;
